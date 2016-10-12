@@ -36,11 +36,12 @@ public class OnReadListener implements OnClickListener {
         StringBuilder message = new StringBuilder();
         FileInputStream inputStream;
         mfileContent.setText("");
+        /*
         File file = new File(filename);
         if (file.exists() == false) {
             mfileContent.setText("File not found");
             return;
-        }
+        }*/
 
         try{
             inputStream =  mcontext.openFileInput(filename);

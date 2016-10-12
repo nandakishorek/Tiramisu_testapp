@@ -48,6 +48,8 @@ public class OnWriteListener implements OnClickListener {
         } catch (Exception e) {
             Log.e("Tiramisu", "Content provider insert failed");
         }
+        fileName.setText("");
+        fileContent.setText("");
     }
 
 }
