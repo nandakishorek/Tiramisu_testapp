@@ -1,0 +1,124 @@
+[
+    {
+        "outputFile": "/media/mahesh/vk/Tiramisu/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 45,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 46,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 44,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 46,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 46,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endColumn": 57,
+                    "endOffset": 340
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 345,
+                    "endColumn": 50,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 682
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 687,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 842
+                },
+                "from": {
+                    "file": "/media/mahesh/vk/Tiramisu/app/src/main/res/values/styles.xml"
+                }
+            }
+        ]
+    }
+]
