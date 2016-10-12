@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/media/mahesh/vk/Tiramisu/app/src/main/assets"/></dataSet><dataSet config="debug"><source path="/media/mahesh/vk/Tiramisu/app/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/kishore/android_studio_ws/tiramisu_testapp/app/src/main/assets"/><source path="/home/kishore/android_studio_ws/tiramisu_testapp/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/kishore/android_studio_ws/tiramisu_testapp/app/src/debug/assets"/></dataSet></merger>

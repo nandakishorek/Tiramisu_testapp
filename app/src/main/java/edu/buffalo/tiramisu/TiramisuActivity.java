@@ -5,11 +5,14 @@ import android.content.ContentResolver;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.Menu;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class TiramisuActivity extends Activity {
+
+    private static String TAG = TiramisuActivity.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,7 @@ public class TiramisuActivity extends Activity {
         final EditText fileContent = (EditText) findViewById(R.id.editText2);
         //Write
         findViewById(R.id.button).setOnClickListener(
-                new OnWriteListener(getApplicationContext(), fileName,fileContent, getContentResolver()));
+                new OnWriteListener(getApplicationContext(), fileName, fileContent, getContentResolver()));
 
         //Delete
         findViewById(R.id.button2).setOnClickListener(
@@ -34,7 +37,9 @@ public class TiramisuActivity extends Activity {
 
         //Append
         findViewById(R.id.button4).setOnClickListener(
-                new onAppendListener(getApplicationContext(), fileName,fileContent,getContentResolver()));
+                new onAppendListener(getApplicationContext(), fileName, fileContent, getContentResolver()));
+
+        Log.e(TAG, "onCreate");
     }
 
     @Override
@@ -44,5 +49,27 @@ public class TiramisuActivity extends Activity {
         return true;
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e(TAG, "onDestroy");
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e(TAG, "onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e(TAG, "onStop");
+    }
+}
