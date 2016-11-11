@@ -39,6 +39,13 @@ public class TiramisuActivity extends Activity {
         findViewById(R.id.button4).setOnClickListener(
                 new onAppendListener(getApplicationContext(), fileName, fileContent, getContentResolver()));
 
+        //List files
+        findViewById(R.id.button5).setOnClickListener(
+                new onListFilesListener(getApplicationContext(), tv, getContentResolver()));
+
+        findViewById(R.id.button6).setOnClickListener(
+                new onMakeDirListener(getApplicationContext(), fileName, getContentResolver()));
+
         Log.e(TAG, "onCreate");
     }
 

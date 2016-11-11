@@ -41,6 +41,14 @@ public class OnWriteListener implements OnClickListener {
         String filename = fileName.getText().toString();
         String text = fileContent.getText().toString();
         FileOutputStream outputStream;
+        String path = mContext.getFilesDir().getAbsolutePath() + File.separator + filename;
+        try {
+            File f = new File(path);
+            f.getParentFile().mkdirs();
+            f.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         try {
             outputStream = mContext.openFileOutput(filename, Context.MODE_PRIVATE);
             outputStream.write(text.getBytes());
